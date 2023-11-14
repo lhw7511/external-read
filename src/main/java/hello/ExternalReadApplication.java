@@ -7,8 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 import org.springframework.context.annotation.Import;
 
 @Import(MyDataSourceConfigV3.class)
-@SpringBootApplication(scanBasePackages = "hello.datasource")
-@ConfigurationPropertiesScan
+@SpringBootApplication(scanBasePackages = {"hello.pay", "hello.datasource"})
 public class ExternalReadApplication {
 
     public static void main(String[] args) {
