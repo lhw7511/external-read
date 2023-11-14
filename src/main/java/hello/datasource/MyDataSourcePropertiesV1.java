@@ -1,4 +1,4 @@
-package hello.config;
+package hello.datasource;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
